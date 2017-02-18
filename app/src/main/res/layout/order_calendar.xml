@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_wrapper">
+
+    <GridView
+        android:id="@+id/gv_calendar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:listSelector="@color/transparent"
+        android:verticalSpacing="@dimen/_25dp"
+        android:horizontalSpacing="@dimen/_10dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginLeft="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_5dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/_20dp"
+        android:paddingBottom="@dimen/_20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/step_sec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90dp"
+        android:gravity="center">
+        <RelativeLayout
+            android:id="@+id/step1_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step1"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1"
+                android:text="@string/order_place"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider1"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step1_sec"/>
+
+        <RelativeLayout
+            android:id="@+id/step2_sec"
+            android:layout_toRightOf="@id/divider1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step2"
+                style="@style/step_style"
+                android:background="@drawable/icon_grey_point"
+                android:text="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step2"
+                android:text="@string/order_time"
+                android:textColor="@color/order_step_divider" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step2_sec"/>
+
+        <RelativeLayout
+            android:id="@+id/step3_sec"
+            android:layout_toRightOf="@id/divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step3"
+                android:background="@drawable/icon_grey_point"
+                android:text="3"
+                style="@style/step_style"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step3"
+                android:text="@string/order_confirm"
+                android:textColor="@color/order_step_divider" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:paddingLeft="@dimen/_5dp"
+        android:paddingRight="@dimen/_5dp"
+        android:background="@color/list_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_sec"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_5dp">
+        <TextView
+            android:id="@+id/f_contact"
+            style="@style/form_tv"
+            android:text="@string/f_contact"/>
+        <EditText
+            android:id="@+id/contact"
+            android:layout_toRightOf="@id/f_contact"
+            style="@style/form_ev"
+            android:background="@null"/>
+        <View
+            android:layout_below="@id/f_contact"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/form_divider"></View>
+        <TextView
+            android:id="@+id/f_mobile"
+            android:layout_below="@id/f_contact"
+            style="@style/form_tv"
+            android:text="@string/f_mobile"/>
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_below="@id/contact"
+            android:layout_toRightOf="@id/f_mobile"
+            style="@style/form_ev"/>
+        <View
+            android:layout_below="@id/f_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/form_divider"></View>
+        <TextView
+            android:id="@+id/f_street"
+            android:layout_below="@id/f_mobile"
+            style="@style/form_tv"
+            android:text="@string/f_street"/>
+        <AutoCompleteTextView
+            android:id="@+id/street"
+            android:layout_below="@id/mobile"
+            android:layout_toRightOf="@id/f_street"
+            style="@style/form_ev"
+            android:popupBackground="@color/white"
+            android:dropDownVerticalOffset="0dp"
+            android:completionThreshold="1"
+            android:hint="@string/street_hint"/>
+        <View
+            android:layout_below="@id/f_street"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/form_divider"></View>
+        <TextView
+            android:id="@+id/f_address"
+            android:layout_below="@id/f_street"
+            style="@style/form_tv"
+            android:text="@string/f_address"/>
+        <EditText
+            android:id="@+id/address"
+            android:layout_below="@id/street"
+            android:layout_toRightOf="@id/f_address"
+            style="@style/form_ev"
+            android:hint="@string/address_hint"/>
+        <View
+            android:layout_below="@id/f_address"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/form_divider"></View>
+        <TextView
+            android:id="@+id/f_mark"
+            android:layout_below="@id/f_address"
+            style="@style/form_tv"
+            android:text="@string/f_mark"/>
+        <EditText
+            android:id="@+id/mark"
+            android:layout_below="@id/address"
+            android:layout_toRightOf="@id/f_mark"
+            android:gravity="top"
+            style="@style/form_ev"
+            android:minLines="5"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="@dimen/_9dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:hint="@string/mark_hint"/>
+        <View
+            android:id="@+id/divier"
+            android:layout_below="@id/mark"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/form_divider"></View>
+        <TextView
+            android:id="@+id/service_scope"
+            android:layout_below="@id/divier"
+            style="@style/order_detail_item"
+            android:layout_height="@dimen/_60dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:textColor="@color/third_title"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_wrapper">
+
+        <TextView
+            android:id="@+id/order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/_15sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:text="@string/info_uncompleted"/>
+
+        <TextView
+            android:id="@+id/sport_order_btn"
+            android:layout_width="@dimen/_140dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/next_step"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

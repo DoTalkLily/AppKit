@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coupon_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120dp"
+    android:background="@drawable/coupon_valid"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/fee"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/coupon_fee"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:textSize="@dimen/_28sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="@string/yuan"
+            android:textSize="@dimen/_12sp"
+            android:layout_marginTop="@dimen/_45dp"
+            android:textColor="@color/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/coupon_fee"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_10dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/fee"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="@dimen/_75dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/_16sp"
+            android:textColor="@color/orange"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="@string/coupon_scope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/coupon_tips"
+            android:textSize="@dimen/_14sp"
+            android:text="使用说明：没胆仅限使用一张"
+            android:textColor="@color/orange"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/coupon_date"
+            android:textSize="@dimen/_14sp"
+            android:textColor="@color/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/coupon_day_left"
+            android:textSize="@dimen/_14sp"
+            android:textColor="@color/orange"
+            android:drawablePadding="@dimen/_2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/coupon_btn"
+        android:src="@drawable/icon_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.5"
+        android:layout_marginRight="@dimen/_25dp"/>
+</RelativeLayout>

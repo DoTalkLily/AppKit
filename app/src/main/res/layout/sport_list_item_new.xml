@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_182dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/list_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/duration_wrapper"
+        style="@style/pic_wrapper">
+
+        <TextView
+            android:id="@+id/duration"
+            style="@style/pic_first_title" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/pic_unit"
+            android:text="@string/minute_" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cost_wrapper"
+        style="@style/pic_wrapper"
+        android:layout_below="@+id/duration_wrapper">
+
+        <TextView
+            android:id="@+id/cost"
+            style="@style/pic_first_title" />
+
+        <TextView
+            android:id="@+id/origin_cost"
+            style="@style/pic_first_title" />
+
+        <TextView
+            android:id="@+id/yuan"
+            style="@style/pic_unit"
+            android:text="@string/yuan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/suggest_wrapper"
+        style="@style/pic_wrapper"
+        android:layout_below="@id/cost_wrapper">
+
+        <TextView
+            android:id="@+id/suggest"
+            style="@style/pic_first_title" />
+
+        <TextView
+            android:id="@+id/people"
+            style="@style/pic_unit"
+            android:text="@string/ren" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/sport_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:letterSpacing="@dimen/_4dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_27sp"
+        android:textStyle="bold" />
+</RelativeLayout>

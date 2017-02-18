@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ListView
+        android:id="@+id/coach_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="@dimen/_60dp"
+        style="@style/list_wrapper_style"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_wrapper">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_16sp"
+                android:text="@string/unit_price"/>
+            <TextView
+                android:id="@+id/price_state"
+                android:textSize="@dimen/_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"/>
+            <TextView
+                android:textSize="@dimen/_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/next_step_btn"
+            android:layout_width="@dimen/_140dp"
+            android:layout_height="match_parent"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/next_step"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

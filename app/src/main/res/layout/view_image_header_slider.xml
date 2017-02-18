@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        custom:pager_animation="Accordion"
+        custom:auto_cycle="true"
+        android:layout_height="@dimen/_200dp" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40dp">
+        <RelativeLayout
+            android:id="@+id/category_js"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/gym_icon"
+                android:src="@drawable/js"
+                style="@style/category_tab_icon"/>
+            <TextView
+                android:id="@+id/gym_tab"
+                android:text="@string/gym_tab"
+                android:layout_toRightOf="@id/gym_icon"
+                style="@style/category_tab_title"/>
+            <TextView
+                android:id="@+id/gym_underline"
+                style="@style/category_tab_underline"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/category_yoga"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/yoga_icon"
+                android:src="@drawable/yj"
+                style="@style/category_tab_icon"/>
+            <TextView
+                android:id="@+id/yoga_tab"
+                android:text="@string/yoga_tab"
+                style="@style/category_tab_title"
+                android:textColor="@color/c_ccc"
+                android:layout_toRightOf="@id/yoga_icon"/>
+            <TextView
+                android:id="@+id/yoga_underline"
+                style="@style/category_tab_underline"
+                android:background="@color/c_ccc"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+[
+  {
+    "abstract_desc": "",
+    "available_areas": "国贸",
+    "created_at": "2015-07-01 10:52:12",
+    "description": "<p>河南大学学士，国家二级篮球运动员，2014年进入海莱特健身学院学习，获得全能高级私人教练证书，同时考取健身教练国家职业资格认证，红十字会CPR心肺复苏认证，后进入AFAA美国体适能继续深造。</p>\r\n<p>进入行业两年，上课时数超过4000小时，同时被时尚星秀评选为时尚健身运动星TOP20，擅长增肌、减脂、塑形、功能性训练、篮球运动专项训练。为人谦逊，有极强的沟通能力，教学能力，授课注重细节及动作完成质量。通过针对性的训练为用户取得更好的运动效果。</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 11,
+    "end_work_at": "21:00",
+    "hours_class": "14.0",
+    "id": 12,
+    "name": "傅彦明",
+    "order_num": 15,
+    "positive_reputation": "0%",
+    "profile_image_url": "http://7xj017.com1.z0.glb.clouddn.com/o_19p3oeln8t3n7ao1iuq10hbbnt7.jpg?imageView2/1/w/140/h/140",
+    "reputation_num": 0,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-07-29 16:00:00",
+    "verified": "国家职业资格认证 AFAA美国体适能私人教练认证 CPR心肺复苏认证",
+    "visible": true,
+    "wechat_qy_id": "huyunting",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0"
+  },
+  {
+    "abstract_desc": "",
+    "available_areas": "五道口",
+    "created_at": "2015-07-01 10:53:33",
+    "description": "<p>广西大学学士，学校CUBA篮球队员，北京体育大学运动康复专业进修。模特之星大赛全国十强。2011年开始从事私人健身教练。认证证书：亚洲体适能AASFP高级教练，国家职业认证教练，美国体适能AFAA单车认证教练，AFAA普拉提认证教练，2012年海莱特高级私人教练培训，2013、2014耐克盛典健身大会，NTC认证教练，2014年参加王严高级健美培训，健美协会认证教练，2015费恩莱斯健美健身队成员。</p>\r\n<p>擅长增肌，减脂，女性塑形，体能训练，小团体私教课程，被誉为“身材雕刻师”，教学细致温和，幽默风趣，轻松愉快的授课风格深受会员喜爱。提倡爱生活爱健身，把健身融入生活的一部分！</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 12,
+    "end_work_at": "21:00",
+    "hours_class": "7.0",
+    "id": 13,
+    "name": "高哲",
+    "order_num": 7,
+    "positive_reputation": "0%",
+    "profile_image_url": "http://7xj017.com1.z0.glb.clouddn.com/o_19p3om6h01fng7bb6k21tvjih17.jpg?imageView2/1/w/140/h/140",
+    "reputation_num": 0,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-07-14 16:47:53",
+    "verified": "国家职业资格认证 AFAA美国体适能私人教练认证 CPR心肺复苏认证 NTC教练认证 ",
+    "visible": true,
+    "wechat_qy_id": "gaozhe",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0"
+  },
+  {
+    "abstract_desc": "",
+    "available_areas": "太阳宫",
+    "created_at": "2015-07-01 10:54:20",
+    "description": "<p>北京体育大学体育教育学士学位，百米国家一级运动员。认证证书：亚洲专业体适能教练（AASFP）、亚洲体适能高级私人教练（AASFP）、普拉提认证教练、GYM ball 认证教练、全国首期极塑美臀认证教练。</p>\r\n<p>从事健身行业已有五年，个人授课累积上万节，带过各种人群，个人经验丰富、曾成功帮助上百位的会员成功减脂，对减脂有自己的一套方法和理论。个人主要擅长：增肌、减脂、塑形、普拉提、搏击、产后恢复、极塑美臀、TRX功能性训练、改善颈椎腰椎问题、矫正身体不良姿态。</p>\r\n<p>工作格言：只要你付出时间与汗水，我就能给你带去健康的身体与完美的身材，不要让自己的青春留下遗憾！</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 1,
+    "end_work_at": "21:00",
+    "hours_class": "5.0",
+    "id": 14,
+    "name": "李博天",
+    "order_num": 5,
+    "positive_reputation": "0%",
+    "profile_image_url": "http://7xj017.com1.z0.glb.clouddn.com/o_19p3oijh41n1v1p454hb1jqpspt7.jpg?imageView2/1/w/140/h/140",
+    "reputation_num": 0,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-07-14 16:47:53",
+    "verified": "亚洲体适能高级私人教练，极塑美臀认证教练，GYM ball认证教练，普拉提认证教练",
+    "visible": true,
+    "wechat_qy_id": "qimengyue",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0"
+  },
+  {
+    "abstract_desc": "",
+    "available_areas": "团结湖",
+    "created_at": "2015-07-01 10:55:20",
+    "description": "<p>北京体育大学体育教育学士</p>                                  \r\n<p>100米国家一级运动员</p>\r\n<p>12岁开始业余体育训练，多次获得地市短跑优异名次，大学期间接触健身，健身训练5年。曾获校区健美比赛第六名</p>\r\n<p>认证证书： 北京市健美协会认证私人教练、赛普健身学院认证全能私人教练专家、TRX功能性训练认证教练、普拉提垫上基础及私人教练认证、 MFA自由搏击指导资格认证教练、极速减脂和运动康复大师资格认证、北京市红十字会CPR心肺复苏认证。</p>\r\n<p>工作3年以来，累计带课时效近4000节，深受会员好评，课程风格互动性强，训练效率高，曾帮助近百位会员达增肌、减脂、塑形的目标。减脂方面擅长EPOC训练法，增肌方面擅长单位时间功率训练法。</p>\r\n<p>工作格言：挑战自我！</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 13,
+    "end_work_at": "21:00",
+    "hours_class": "0.0",
+    "id": 15,
+    "name": "申洋洋",
+    "order_num": 0,
+    "positive_reputation": "0%",
+    "profile_image_url": "http://7xj017.com1.z0.glb.clouddn.com/o_19p7gmpvi1av122o19q9gqerca7.jpg?imageView2/1/w/140/h/140",
+    "reputation_num": 0,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-07-10 17:29:14",
+    "verified": "赛普健身学院全能私人教练专家证书 ，北京市健美协会证书 ",
+    "visible": true,
+    "wechat_qy_id": "shenyangyang",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0"
+  },
+  {
+    "abstract_desc": "",
+    "available_areas": "青年路",
+    "created_at": "2015-07-01 10:57:23",
+    "description": "<p>河北体院体育教育学学士，专业训练九年，国家800米一级运动员。认证证书：国职高级私人教练证书，国家高级中学教师证书，国家社会指导员，NTC认证教练。</p>\r\n<p>从事健身教练已有四年，累积授课7000节有余，对于瘦身、减脂、塑形、产后恢复有丰富的经验，曾担任周冬雨，古巨基的私人教练。曾担任24小时真人秀《女神的房间》迟浩楠的教练。</p>\r\n<p>工作格言：投资学习和健身是永远不会后悔的选择！</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 14,
+    "end_work_at": "21:00",
+    "hours_class": "1.5",
+    "id": 16,
+    "name": "王朋",
+    "order_num": 2,
+    "positive_reputation": "0%",
+    "profile_image_url": "http://7xj017.com1.z0.glb.clouddn.com/o_19p7gmab61uhari11c9e6k710617.jpg?imageView2/1/w/140/h/140",
+    "reputation_num": 0,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-07-10 17:29:14",
+    "verified": "国职中级私人教练认证，社会指导员证书，800米国家一级运动员，NTC认证教练",
+    "visible": true,
+    "wechat_qy_id": "wangpeng",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0"
+  }
+]

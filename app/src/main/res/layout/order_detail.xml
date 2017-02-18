@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/bar_wrapper"
+            android:background="@drawable/listitem_shape">
+
+            <TextView
+                style="@style/bar_style"
+                android:drawableLeft="@drawable/icon_order_num"
+                android:text="@string/order_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10dp"
+            style="@style/order_detail_style">
+            <TextView
+                android:id="@+id/order_num"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:id="@+id/sport_title"
+                style="@style/order_detail_item" />
+            <TextView
+                android:id="@+id/sport_duration"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:id="@+id/order_pay_fee"
+                style="@style/order_detail_item" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/order_off_fee"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/order_coupon"
+                style="@style/order_detail_item" />
+            <TextView
+                android:id="@+id/order_real_pay"
+                style="@style/order_detail_item" />
+            <View
+                style="@style/order_detail_divider"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/order_detail_style">
+            <TextView
+                android:id="@+id/coach_name"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:id="@+id/sport_start_time"
+                style="@style/order_detail_item" />
+            <View
+                style="@style/order_detail_divider"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/order_detail_style">
+            <TextView
+                android:id="@+id/consignee_name"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:id="@+id/consignee_mobile"
+                style="@style/order_detail_item" />
+            <TextView
+                android:id="@+id/consignee_address"
+                style="@style/order_detail_item"/>
+            <TextView
+                android:id="@+id/mark"
+                android:text="@string/mark_no"
+                style="@style/order_detail_item" />
+            <View style="@style/order_detail_divider"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/comment_container"
+            android:visibility="gone"
+            style="@style/order_detail_style">
+            <TextView
+                android:id="@+id/comment_tips"
+                style="@style/order_detail_item"
+                android:text="@string/order_detail_comment"/>
+            <LinearLayout
+                android:id="@+id/comment_star"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:layout_toRightOf="@id/comment_tips"/>
+            <TextView
+                android:id="@+id/comment_content"
+                android:layout_toRightOf="@id/comment_tips"
+                android:layout_below="@id/comment_star"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"/>
+            <View
+                android:id="@+id/divider"
+                android:layout_below="@id/comment_content"
+                style="@style/order_detail_divider"/>
+            <TextView
+                android:id="@+id/service_scope"
+                android:layout_below="@id/divider"
+                android:text="@string/service_distance"
+                style="@style/order_detail_item"
+                android:textColor="@color/b3b3b3"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/order_detail_style">
+            <View style="@style/order_detail_divider"/>
+            <TextView
+                android:id="@+id/not_payed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sp"
+                android:textColor="@color/orange"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/pay_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_15sp"
+                android:background="@color/light_grey"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="@string/payit"/>
+            <TextView
+                android:id="@+id/btn_order_again"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/_20dp"
+                style="@style/order_detail_item"
+                android:drawableLeft="@drawable/icon_order_again"
+                android:text="@string/order_again" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

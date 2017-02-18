@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-c984353bf7dc6bb4db063c6dab9b6e1b2595e981.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/volley-53d2b85206d1b28351391e5b34a8c91ec1da6f6c.jar" />
+    </item>
+    <item
+        jar="/Users/lily/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/picasso-2.3.2-b0f0d9b0ea3ba561b125115599981ccef10dabae.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/umeng-analytics-v5.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/umeng-analytics-v5.6.1-f59cbfbe1c5525ba50746bb2714d668470922a60.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-83c21d47185ac0fc481953f4d3affbf64e1e1d8d.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-81a4f3dec6b8e7f70dade629462266549fd098af.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a31fd4d68ac17ad1988f4b44eed1f69327315a55">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-408adc7eb62d2eb96b2398eaf17264ae0993abd7.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7eb126039737b3ada03141cba019d2c385cceca8">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-ec0bafaf3dd153df8e492535aa97e1758613693f.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/javax.inject.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="23eaf3bde7183f65ca8666c5db6b524cb7cbace5">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/javax.inject-c290be69d487f3d70d0fdb7b4fc31536e78e296a.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/alipaySDK-20150818.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6dde19fc34adb03c637b17fdaa754e0c02cf75a0">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/alipaySDK-20150818-12a028f2f4a9fe7667f8c530d7e97b4c88f19eea.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-dbe3e064e655f2bd5898bc25b574175d8acdb7e1.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-e3c24bf3d83222ef8613cd2c95b8170d59e6367c.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e76510af0986842b672c59d29502f3d29866320a">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/umeng-update-v2.6.0.1-e89dd70d615ca2a486be53ef924667981ac58107.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-223c4fb451fdc4e87cd69d27c6b99fdeec5c85d4.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-24ac894992ed4ab3757dc1c2e9f8e147f4d70a6b.jar" />
+    </item>
+    <item
+        jar="/Users/lily/soft/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dca265ad61d5c48a8bb54871b09e03afa39340c0.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="956a7969705640c8790b983aaa7ff805dff80cf6">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-6d74f51f78f0be4d713debd0244a1ef3070b6ade.jar" />
+    </item>
+    <item
+        jar="/Users/lily/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/library-2.4.0-93f163437b62c9c7ca11a400a543f79dee0aac24.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/gson-2.2.4-8bddf5515e4fd0afb77944dd2edcf7f7c1e03eaa.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.d.pulltorefresh/pulltorefresh/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0d9f68035666bf2429f2294a14a85018dbce61cb">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-a4c60852e8b0a05a8320a3391c9f15f63cb1379e.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/libammsdk-50aa7936f3c25fddbbc10c554bcb946f25212c60.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c4334f20001e3ceaa00b203290961224aca8744f">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/classes-cf91736e6c9f298d3f85470754cd091c08453864.jar" />
+    </item>
+    <item
+        jar="/Users/lily/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-dfe7ab120f18e8b283041a67801b76737a06810c.jar" />
+    </item>
+    <item
+        jar="/Users/lily/program/RanDian/app/libs/baidumapapi_v3_5_0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba79500bb64218f10b5fd0d5ea54503b2bf6b3bb">
+        <dex dex="/Users/lily/program/RanDian/app/build/intermediates/pre-dexed/debug/baidumapapi_v3_5_0-aa824268e6ab195d226ed4ba9486a2986712d68d.jar" />
+    </item>
+
+</items>

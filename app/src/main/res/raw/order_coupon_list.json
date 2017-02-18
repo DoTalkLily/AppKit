@@ -1,0 +1,38 @@
+[
+  {
+    "coupon_description": "每单仅限使用一张",
+    "coupon_expire_at": "2015-08-15",
+    "coupon_fee": 100,
+    "created_at": "2015-08-08 12:11:39",
+    "id": 38,
+    "receive_mobile": 18511878276,
+    "coupon_state_text": "已领取"
+  },
+  {
+    "coupon_description": "每单仅限使用一张",
+    "coupon_expire_at": "2015-08-20",
+    "coupon_fee": 60,
+    "created_at": "2015-08-08 12:11:39",
+    "id": 39,
+    "receive_mobile": 18511878276,
+    "coupon_state_text": "已领取"
+  },
+  {
+    "coupon_description": "每单仅限使用一张",
+    "coupon_expire_at": "2015-08-15",
+    "coupon_fee": 100,
+    "created_at": "2015-08-08 12:11:39",
+    "id": 40,
+    "receive_mobile": 18511878276,
+    "coupon_state_text": "已领取"
+  },
+  {
+    "coupon_description": "每单仅限使用一张",
+    "coupon_expire_at": "2015-08-15",
+    "coupon_fee": 100,
+    "created_at": "2015-08-08 12:11:39",
+    "id": 41,
+    "receive_mobile": 18511878276,
+    "coupon_state_text": "已领取"
+  }
+]

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/step_sec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80dp"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10dp">
+
+        <RelativeLayout
+            android:id="@+id/step1_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step1"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1"
+                android:text="@string/order_place"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider1"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step1_sec"
+            android:background="@color/orange" />
+
+        <RelativeLayout
+            android:id="@+id/step2_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider1">
+
+            <TextView
+                android:id="@+id/step2"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step2"
+                android:text="@string/order_time"
+                android:textColor="@color/orange"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step2_sec" />
+
+        <RelativeLayout
+            android:id="@+id/step3_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider2">
+
+            <TextView
+                android:id="@+id/step3"
+                style="@style/step_style"
+                android:background="@drawable/icon_grey_point"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step3"
+                android:text="@string/order_confirm"
+                android:textColor="@color/order_step_divider" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_20sp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:textColor="@color/order_date"/>
+
+    <RelativeLayout
+        android:id="@+id/coach_level_sec"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20dp">
+        <TextView
+            android:id="@+id/coach_level"
+            android:text="@string/order_coach_level"
+            android:textSize="@dimen/_15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/coach_level_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/coach_level"
+            android:layout_marginLeft="@dimen/_50dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

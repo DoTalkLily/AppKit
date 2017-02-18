@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+       android:id="@+id/vp_home"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_ccc"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/sport_tab"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_sport_tab"
+                    android:src="@drawable/tab1_normal"
+                    style="@style/tab_pic_normal"/>
+                <TextView
+                    android:id="@+id/tv_sport_tab"
+                    android:text="@string/default_tab"
+                    style="@style/tab_word_normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/coach_tab"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_coach_tab"
+                    android:src="@drawable/tab2_normal"
+                    style="@style/tab_pic_normal"/>
+                <TextView
+                    android:id="@+id/tv_coach_tab"
+                    android:text="@string/coach_tab"
+                    style="@style/tab_word_normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/order_tab"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_order_tab"
+                    android:src="@drawable/tab3_normal"
+                    style="@style/tab_pic_normal"/>
+                <TextView
+                    android:id="@+id/tv_order_tab"
+                    android:text="@string/order_tab"
+                    style="@style/tab_word_normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personal_tab"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_personal_tab"
+                    android:src="@drawable/tab4_normal"
+                    style="@style/tab_pic_normal"/>
+                <TextView
+                    android:id="@+id/tv_personal_tab"
+                    android:text="@string/personal_tab"
+                    style="@style/tab_word_normal"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

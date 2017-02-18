@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coach_list_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100dp"
+    android:layout_marginLeft="@dimen/_5dp"
+    android:layout_marginRight="@dimen/_5dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/coach_image_wrapper"
+        style="@style/image_wrapper">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar_image"
+            style="@style/avatar"
+            fresco:placeholderImage="@drawable/avatar_placeholder"/>
+
+        <ImageView
+            android:id="@+id/avatar_bubble"
+            style="@style/bubble" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/first_title"
+        android:layout_toRightOf="@id/coach_image_wrapper" />
+
+    <TextView
+        android:id="@+id/gender"
+        style="@style/first_title"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_toRightOf="@id/name" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/second_title"
+        android:layout_below="@id/name"
+        android:layout_marginRight="@dimen/_60dp"
+        android:layout_toRightOf="@id/coach_image_wrapper" />
+
+    <TextView
+        android:id="@+id/available_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_toRightOf="@id/coach_image_wrapper"
+        android:textColor="@color/third_title"
+        android:textSize="@dimen/_14sp" />
+
+   <RelativeLayout
+       android:layout_alignParentRight="true"
+       android:layout_width="@dimen/_60dp"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/btn_order"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/_20dp"
+           android:background="@drawable/icon_unchecked"/>
+   </RelativeLayout>
+
+</RelativeLayout>

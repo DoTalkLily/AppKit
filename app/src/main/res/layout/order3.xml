@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/step_sec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_85dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/step1_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step1"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1"
+                android:text="@string/order_place"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider1"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step1_sec"
+            android:background="@color/orange" />
+
+        <RelativeLayout
+            android:id="@+id/step2_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider1">
+
+            <TextView
+                android:id="@+id/step2"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step2"
+                android:text="@string/order_time"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step2_sec"
+            android:background="@color/orange" />
+
+        <RelativeLayout
+            android:id="@+id/step3_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider2">
+
+            <TextView
+                android:id="@+id/step3"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step3"
+                android:text="@string/order_confirm"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/order_title"
+        style="@style/bar_wrapper"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/step_sec"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            style="@style/bar_style"
+            android:text="@string/order_info" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/list_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_105dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_below="@id/order_title"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/image_wrapper"
+            style="@style/image_wrapper">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/avatar_image"
+                style="@style/avatar"
+                fresco:placeholderImage="@drawable/avatar_placeholder"/>
+
+            <ImageView
+                android:id="@+id/avatar_bubble"
+                style="@style/bubble"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sport_title"
+            style="@style/first_title"
+            android:layout_toRightOf="@id/image_wrapper" />
+
+        <TextView
+            android:id="@+id/coach_name"
+            style="@style/second_title"
+            android:lines="1"
+            android:layout_below="@id/sport_title"
+            android:layout_toRightOf="@id/image_wrapper" />
+
+        <TextView
+            android:id="@+id/sport_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_wrapper"
+            android:textColor="@color/second_title"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_below="@id/coach_name"
+            android:textSize="@dimen/_14sp" />
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_5dp"
+            android:layout_toRightOf="@id/image_wrapper"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/_14sp"
+            android:text="@string/warning"/>
+
+        <TextView
+            android:id="@+id/cost"
+            style="@style/first_title"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_30dp"
+            android:textColor="@color/orange" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_wrapper"
+        android:layout_marginTop="@dimen/_5dp"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="@dimen/_10dp"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            android:id="@+id/f_contact"
+            style="@style/form_tv"
+            android:text="@string/f_contact" />
+
+        <TextView
+            android:id="@+id/contact"
+            style="@style/form_ev"
+            android:layout_toRightOf="@id/f_contact"
+            android:background="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/f_contact"
+            android:background="@color/form_divider"></View>
+
+        <TextView
+            android:id="@+id/f_mobile"
+            style="@style/form_tv"
+            android:layout_below="@id/f_contact"
+            android:text="@string/f_mobile" />
+
+        <TextView
+            android:id="@+id/mobile"
+            style="@style/form_ev"
+            android:layout_below="@id/contact"
+            android:layout_toRightOf="@id/f_mobile" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/f_mobile"
+            android:background="@color/form_divider"></View>
+
+        <TextView
+            android:id="@+id/f_address"
+            style="@style/form_tv"
+            android:layout_below="@id/f_mobile"
+            android:text="@string/f_address" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/form_ev"
+            android:layout_below="@id/mobile"
+            android:layout_toRightOf="@id/f_address"
+            android:hint="@string/address_hint" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/f_address"
+            android:background="@color/form_divider"></View>
+
+        <TextView
+            android:id="@+id/f_mark"
+            style="@style/form_tv"
+            android:layout_below="@id/f_address"
+            android:text="@string/f_mark" />
+
+        <TextView
+            android:id="@+id/mark"
+            style="@style/form_ev"
+            android:layout_below="@id/address"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_9dp"
+            android:layout_toRightOf="@id/f_mark"
+            android:gravity="top"
+            android:hint="@string/mark_hint"
+            android:inputType="textMultiLine"
+            android:minLines="5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/use_coupon"
+        style="@style/bar_wrapper"
+        android:layout_below="@id/form"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            android:id="@+id/coupon_state"
+            style="@style/bar_style"
+            android:drawableLeft="@drawable/icon_coupon"
+            android:text="@string/coupon_use" />
+
+        <ImageView
+            style="@style/arrow_right"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_wrapper">
+
+        <TextView
+            android:id="@+id/order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:text="@string/confirm_order"
+            android:textSize="@dimen/_15sp" />
+
+        <TextView
+            android:id="@+id/sport_order_btn"
+            android:layout_width="@dimen/_140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="@string/submit_order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

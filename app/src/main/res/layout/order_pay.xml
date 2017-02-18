@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40dp"
+        android:layout_margin="@dimen/_5dp"
+        android:drawablePadding="@dimen/_8dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_10dp"
+        android:paddingRight="@dimen/_10dp"
+        android:background="@drawable/listitem_shape"
+        android:drawableLeft="@drawable/icon_aboutus"
+        android:text="@string/randian_pay" />
+
+    <RelativeLayout
+        android:id="@+id/money"
+        android:layout_below="@id/action_bar"
+        android:layout_width="match_parent"
+        android:gravity="center|center_vertical"
+        android:layout_height="@dimen/_120dp">
+
+        <TextView
+            android:id="@+id/pay_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/need_to_pay"
+            android:textSize="@dimen/_25sp" />
+
+        <TextView
+            android:id="@+id/order_pay_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_toRightOf="@id/pay_status"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/_35sp" />
+        
+        <TextView
+            android:id="@+id/order_paid_fee"
+            android:visibility="gone"
+            android:textSize="@dimen/_15sp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/pay_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/coach_contact_time"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40dp"
+            android:layout_margin="@dimen/_5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10dp"
+            android:paddingRight="@dimen/_10dp"
+            android:background="@drawable/listitem_shape"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_below="@id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_5dp"
+        android:paddingBottom="@dimen/_10dp"
+        android:background="@color/list_wrapper"
+        android:paddingLeft="@dimen/_5dp"
+        android:paddingRight="@dimen/_5dp">
+
+        <TextView
+            android:id="@+id/f_contact"
+            style="@style/order_form_key"
+            android:text="@string/pay_collector" />
+
+        <TextView
+            android:id="@+id/contact"
+            style="@style/order_form_value"
+            android:layout_toRightOf="@id/f_contact"
+            android:text="@string/company" />
+
+        <TextView
+            android:id="@+id/f_goods"
+            style="@style/order_form_key"
+            android:layout_below="@id/f_contact"
+            android:text="@string/goods" />
+
+        <TextView
+            android:id="@+id/goods"
+            style="@style/order_form_value"
+            android:layout_below="@id/contact"
+            android:textColor="@color/orange"
+            android:layout_toRightOf="@id/f_goods" />
+
+        <TextView
+            android:id="@+id/f_mobile"
+            style="@style/order_form_key"
+            android:layout_below="@id/f_goods"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/mobile"
+            style="@style/order_form_value"
+            android:layout_below="@id/goods"
+            android:layout_toRightOf="@id/f_mobile" />
+
+        <TextView
+            android:id="@+id/f_address"
+            style="@style/order_form_key"
+            android:layout_below="@id/f_mobile"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/order_form_value"
+            android:layout_below="@id/mobile"
+            android:layout_toRightOf="@id/f_address" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/bar_wrapper"
+        android:layout_below="@id/form"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            style="@style/bar_style"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/icon_phone"
+            android:text="@string/kefu_phone"
+            android:autoLink="phone"
+            android:textColor="@color/orange" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sport_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="@string/pay_now"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp" />
+</RelativeLayout>

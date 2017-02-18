@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.randian.win">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <application
+        android:name="com.randian.win.RanDianApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sNmC6fYCNjYzbTjKF4uF44ub" />
+
+        <activity
+            android:name="com.randian.win.ui.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.randian.win.ui.sport.SportDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.randian.win.ui.coach.CoachDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.randian.win.ui.order.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.order.OrderCustomerInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.order.OrderChooseTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.order.OrderChooseCoachActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.order.OrderConfirmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.order.OrderPayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.coupon.CouponListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.personal.MyCouponActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.personal.MyAgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.personal.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.personal.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.coach.CommentListActivity"
+            android:screenOrientation="portrait" />
+        <!-- wx支付回调-->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <!-- alipay -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <meta-data android:value="56396209e0f55ac21a00009c" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="Wandoujia" android:name="UMENG_CHANNEL"/>
+    </application>
+
+</manifest>

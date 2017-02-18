@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/step_sec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80dp"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10dp">
+
+        <RelativeLayout
+            android:id="@+id/step1_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/step1"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1"
+                android:text="@string/order_place"
+                android:textColor="@color/orange" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider1"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step1_sec"
+            android:background="@color/orange" />
+
+        <RelativeLayout
+            android:id="@+id/step2_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider1">
+
+            <TextView
+                android:id="@+id/step2"
+                style="@style/step_style"
+                android:background="@drawable/icon_orange_point"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step2"
+                android:text="@string/order_time"
+                android:textColor="@color/orange"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/step_divider"
+            android:layout_toRightOf="@id/step2_sec" />
+
+        <RelativeLayout
+            android:id="@+id/step3_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/divider2">
+
+            <TextView
+                android:id="@+id/step3"
+                style="@style/step_style"
+                android:background="@drawable/icon_grey_point"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step3"
+                android:text="@string/order_confirm"
+                android:textColor="@color/order_step_divider" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/action_bar"
+        style="@style/bar_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40dp"
+        android:layout_below="@id/step_sec"
+        android:layout_margin="@dimen/_5dp"
+        android:background="@drawable/listitem_shape"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/_10dp"
+        android:text="@string/choose_time_tips"
+        android:textSize="@dimen/_15sp" />
+
+    <!-- 日期选择-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80dp"
+        android:paddingLeft="@dimen/_20dp"
+        android:paddingRight="@dimen/_20dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day1"
+                style="@style/day_chosen"
+                android:text="@string/tomorrow" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_day1"
+                style="@style/day_arrow"
+                android:visibility="visible"
+                android:layout_below="@id/tv_day1" />
+        </RelativeLayout>
+
+        <View style="@style/day_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day2"
+                style="@style/day_unchosen"
+                android:text="@string/after_tomorrow" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_day2"
+                style="@style/day_arrow"
+                android:layout_below="@id/tv_day2" />
+        </RelativeLayout>
+
+        <View style="@style/day_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day3"
+                style="@style/day_unchosen" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_day3"
+                style="@style/day_arrow"
+                android:layout_below="@id/tv_day3" />
+        </RelativeLayout>
+
+        <View style="@style/day_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day4"
+                style="@style/day_unchosen" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_day4"
+                style="@style/day_arrow"
+                android:layout_below="@id/tv_day4" />
+        </RelativeLayout>
+
+        <View style="@style/day_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day5"
+                style="@style/day_unchosen" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_day5"
+                style="@style/day_arrow"
+                android:layout_below="@id/tv_day5" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_calender"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

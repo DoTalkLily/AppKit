@@ -1,0 +1,59 @@
+{
+  "sport": {
+    "abstract_desc": "",
+    "baidu_sp_service_id": 1,
+    "created_at": "2015-07-01 11:07:15",
+    "description": "<p>衣服买了没几天就穿不上？不够瘦穿什么都不好看？不要担心，燃点为大家带来了极速减脂课程！</p>\r\n<p>本课程为您量身定制一套减脂方案，可针对一人也可对多人，在合理安全的前提下，通过科学的运动与饮食建议帮助您以最快的速度达到减脂的目的，并同时改善身体健康状况，使您能有一个崭新的精神面貌和身体状态。</p>\r\n<p><strong>场地要求：</strong></p>\r\n<p>2×2 ㎡的空地</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "duration": 60,
+    "id": 3,
+    "level_four_price": 399,
+    "level_one_price": 149,
+    "level_three_price": 269,
+    "level_two_price": 199,
+    "max_user_num": 2,
+    "min_user_num": 1,
+    "name": "极速减脂",
+    "num": 1,
+    "original_price": 300,
+    "price": 149,
+    "sport_type": 1,
+    "updated_at": "2015-08-14 15:46:02",
+    "visible": true,
+    "head_image_url": "http://img.randian.net/1439371358215681.jpg"
+  },
+  "coach": {
+    "abstract_desc": "",
+    "available_areas": "太阳宫",
+    "comment_num": 3,
+    "created_at": "2015-07-01 10:54:20",
+    "description": "<p>北京体育大学体育教育学士学位，百米国家一级运动员。认证证书：亚洲专业体适能教练（AASFP）、亚洲体适能高级私人教练（AASFP）、普拉提认证教练、GYM ball 认证教练、全国首期极塑美臀认证教练。</p>\r\n<p>从事健身行业已有五年，个人授课累积上万节，带过各种人群，个人经验丰富、曾成功帮助上百位的会员成功减脂，对减脂有自己的一套方法和理论。个人主要擅长：增肌、减脂、塑形、普拉提、搏击、产后恢复、极塑美臀、TRX功能性训练、改善颈椎腰椎问题、矫正身体不良姿态。</p>\r\n<p>工作格言：只要你付出时间与汗水，我就能给你带去健康的身体与完美的身材，不要让自己的青春留下遗憾！</p>",
+    "disabled": false,
+    "disabled_at": null,
+    "display_order": 3,
+    "end_work_at": "21:00",
+    "hours_class": "12.0",
+    "id": 14,
+    "level": 1,
+    "name": "李博天",
+    "order_num": 12,
+    "profile_image_url": "http://img.randian.net/1439371354160422.jpg",
+    "score": 5,
+    "sex_code": 1,
+    "start_work_at": "08:00",
+    "updated_at": "2015-08-27 17:04:59",
+    "verified": "亚洲体适能高级私人教练，极塑美臀认证教练，GYM ball认证教练，普拉提认证教练",
+    "visible": true,
+    "wechat_qy_id": "qimengyue",
+    "categories": [
+      {
+        "name": "健身"
+      }
+    ],
+    "city": "北京",
+    "sex": "男",
+    "location": "longitude: 0.0, latitude: 0.0",
+    "coach_level_text": "中级教练"
+  }
+}

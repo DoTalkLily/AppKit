@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100dp"
+    android:background="@color/white">
+    <!--android:background="@drawable/listitem_shape">-->
+
+    <RelativeLayout
+        android:id="@+id/image_wrapper"
+        style="@style/image_wrapper"
+        android:layout_marginLeft="@dimen/_10dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar_image"
+            style="@style/avatar"
+            fresco:placeholderImage="@drawable/avatar_placeholder"/>
+
+        <ImageView
+            android:id="@+id/avatar_bubble"
+            style="@style/bubble" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sport_title"
+        style="@style/first_title"
+        android:layout_toRightOf="@id/image_wrapper" />
+
+    <TextView
+        android:id="@+id/suggest"
+        style="@style/second_title"
+        android:layout_below="@id/sport_title"
+        android:layout_toRightOf="@id/image_wrapper" />
+
+    <ImageView
+        android:id="@+id/icon_clock"
+        android:layout_width="@dimen/_15dp"
+        android:layout_height="@dimen/_15dp"
+        android:layout_toRightOf="@id/image_wrapper"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_12dp"
+        android:layout_marginRight="@dimen/_4dp"
+        android:src="@drawable/icon_clock"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_toRightOf="@id/icon_clock"
+        android:textSize="@dimen/_14sp"
+        android:textColor="@color/second_title"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:background="@color/f9f9f9"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/_10dp">
+        <TextView
+            android:id="@+id/cost"
+            style="@style/first_title"
+            android:layout_width="wrap_content"
+            android:textColor="@color/orange"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/origin_cost"
+            style="@style/second_title"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/cost"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/btn_order"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_15dp"
+            android:background="@drawable/icon_unchecked"
+            android:layout_marginRight="@dimen/_30dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

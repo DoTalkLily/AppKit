@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginTop="-50dp">
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_login_phone"/>
+        <TextView
+            android:id="@+id/phone_label"
+            android:layout_toRightOf="@id/phone_icon"
+            android:text="@string/login_phone"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4dp"/>
+        <EditText
+            android:id="@+id/phone"
+            android:inputType="phone"
+            android:layout_toRightOf="@id/phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_17sp"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <View
+        android:background="@color/f4f4f4"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_2dp"></View>
+
+    <RelativeLayout
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp">
+        <ImageView
+            android:id="@+id/veri_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_vericode"/>
+        <TextView
+            android:id="@+id/veri_label"
+            android:text="@string/login_veri"
+            android:layout_toRightOf="@id/veri_icon"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2dp"/>
+        <EditText
+            android:id="@+id/verify_code"
+            android:inputType="phone"
+            android:layout_toRightOf="@id/veri_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17sp"
+            android:background="@null"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:singleLine="true"/>
+        <TextView
+            android:id="@+id/send_code"
+            android:layout_width="@dimen/_80dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/login_send_message"
+            android:paddingBottom="@dimen/_10dp"
+            android:textColor="@color/orange"/>
+        <TextView
+            android:layout_width="@dimen/_80dp"
+            android:layout_height="@dimen/_2dp"
+            android:background="@color/a4a4a4"
+            android:layout_alignBottom="@id/send_code"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-1dp"/>
+    </RelativeLayout>
+
+    <View
+        android:background="@color/f4f4f4"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_2dp"></View>
+
+    <RelativeLayout
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_10dp">
+        <ImageView
+            android:id="@+id/invite_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_invite_code"/>
+        <TextView
+            android:id="@+id/invite_label"
+            android:text="@string/login_invite"
+            android:layout_toRightOf="@id/invite_icon"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2dp"/>
+        
+        <EditText
+            android:id="@+id/invite_code"
+            android:inputType="phone"
+            android:layout_toRightOf="@id/invite_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_17sp"
+            android:background="@null"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <View
+        android:background="@color/f4f4f4"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_2dp"></View>
+
+    <TextView
+        android:textColor="@color/c_ccc"
+        android:layout_marginTop="@dimen/_5dp"
+        android:text="@string/login_invite_tip"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:textColor="@color/white"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/login_btn_shape"
+        android:text="@string/login"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="@string/login_voice_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/voice_certify"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="@string/login_voice_code"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/orange"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

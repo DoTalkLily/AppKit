@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#c7c7c7</color>
+    <color name="second_title">#808080</color>
+    <color name="third_title">#b3b3b3</color>
+    <color name="orange">#f15a24</color>
+    <color name="background_focus">#f15a24</color>
+    <color name="background_normal">#e6e6e6</color>
+    <color name="list_wrapper">#f4f4f4</color>
+    <color name="footer_background">#f2eeec</color>
+    <color name="divider">#d8d8d8</color>
+    <color name="light_grey">#f4f4f4</color>
+    <color name="order_step_divider">#ccc</color>
+    <color name="order_date">#999999</color>
+    <color name="form_divider">#dfdfdf</color>
+    <color name="list_right_background">#fcfcfc</color>
+    <color name="f9f9f9">#F9F9F9</color>
+    <color name="b3b3b3">#b3b3b3</color>
+    <color name="b2b2b2">#b2b2b2</color>
+    <color name="bfbfbf">#bfbfbf</color>
+    <color name="f4f4f4">#f4f4f4</color>
+    <color name="feedback">#333333</color>
+    <color name="star_yellow">#f4a83b</color>
+    <color name="f2f2f2">#f2f2f2</color>
+    <color name="c_333">#333333</color>
+    <color name="c_9f9f9f">#9f9f9f</color>
+    <color name="c_999">#999999</color>
+    <color name="c_ccc">#cccccc</color>
+    <color name="c_4d4d4d">#4d4d4d</color>
+    <color name="c_e6e6e6">#e6e6e6</color>
+    <color name="a4a4a4">#a4a4a4</color>
+    <!-- fonts -->
+    <color name="text_secondary">#ababab</color>
+    <color name="text_gray">#9e9e9e</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/order_list"
+        android:scrollbars="none"
+        style="@style/list_wrapper_style_new"/>
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:visibility="gone"
+        android:layout_width="@dimen/_140dp"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40dp"
+        android:layout_gravity="center"
+        android:text="@string/login"/>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/person_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200dp"
+            android:src="@drawable/personal_header" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/person_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/my_order"
+            style="@style/bar_wrapper"
+            android:background="@drawable/listitem_shape">
+
+            <TextView
+                style="@style/bar_style"
+                android:drawableLeft="@drawable/icon_myorder"
+                android:text="@string/my_order" />
+
+            <ImageView
+                style="@style/arrow_right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_coupon"
+            style="@style/bar_wrapper"
+            android:background="@drawable/listitem_shape">
+
+            <TextView
+                style="@style/bar_style"
+                android:drawableLeft="@drawable/icon_coupon"
+                android:text="@string/my_coupon" />
+
+            <ImageView
+                style="@style/arrow_right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_us"
+            style="@style/bar_wrapper"
+            android:background="@drawable/listitem_shape">
+
+            <TextView
+                style="@style/bar_style"
+                android:drawableLeft="@drawable/icon_aboutus"
+                android:text="@string/about_us" />
+
+            <ImageView
+                style="@style/arrow_right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/feedback"
+            style="@style/bar_wrapper"
+            android:background="@drawable/listitem_shape">
+
+            <TextView
+                style="@style/bar_style"
+                android:drawableLeft="@drawable/icon_feedback"
+                android:text="@string/feedback" />
+            <ImageView
+                style="@style/arrow_right"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/bar_wrapper"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_60dp"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            style="@style/bar_style"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/icon_phone"
+            android:autoLink="phone"
+            android:text="@string/kefu_phone"
+            android:textColor="@color/orange" />
+    </RelativeLayout>
+
+</RelativeLayout>

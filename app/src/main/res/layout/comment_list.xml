@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        style="@style/bar_wrapper"
+        android:background="@drawable/listitem_shape">
+
+        <TextView
+            android:id="@+id/comment_tips"
+            style="@style/bar_style"
+            android:drawableLeft="@drawable/icon_coupon"
+            android:text="@string/all_comment" />
+
+        <LinearLayout
+            android:id="@+id/comment_star"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_13dp"
+            android:layout_toRightOf="@id/comment_tips"/>
+
+        <TextView
+            android:id="@+id/comment_score"
+            android:textSize="@dimen/_15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/star_yellow"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/comment_star"/>
+
+        <TextView
+            android:id="@+id/comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10dp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:divider="@color/b2b2b2"
+        android:dividerHeight="1sp"
+        android:listSelector="@android:color/transparent"/>
+
+</LinearLayout>
